@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ms_teams_notifier:
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    ports:
+      - 10001:10001
+    expose:
+      - 10001
+    volumes:
+      - .:/usr/src/app
+    env_file:
+     - .env
