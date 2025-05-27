@@ -24,7 +24,7 @@
     "@flyeralarm/grpc-protobuf": "ssh://git@stash.flyeralarm.com:7999/empire/grpc-protobuf.git",
     "@grpc/proto-loader": "^0.6.2",
     "@hapi/joi": "^17.1.1",
-    "@nestjs/common": "^7.6.15",
+    "@nestjs/common": "^10.4.16",
     "@nestjs/config": "^0.6.3",
     "@nestjs/core": "^7.6.15",
     "@nestjs/microservices": "^7.6.17",
