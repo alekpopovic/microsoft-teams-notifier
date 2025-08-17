@@ -20,7 +20,7 @@ export class NotificationService {
             activityTitle: `${activityTitle}`,
             activitySubtitle: `${new Date()}`,
             activityImage:
-              "https://avatars.githubusercontent.com/u/22687313?s=200&v=4",
+              "",
             text: `${text}`
           }
         ]
